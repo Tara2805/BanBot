@@ -1,0 +1,28 @@
+{
+  "name": "banbot",
+  "version": "1.0.0",
+  "description": "A discord bot that bans accounts that join that are less than 1 week old",
+  "main": "run.js",
+  "scripts": {
+    "test": "node run.js",
+    "start": "node run.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [
+    "discord",
+    "ban",
+    "bot",
+    "server",
+    "week"
+  ],
+  "type": "module",
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "axios": "^0.23.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.17.1",
+    "lowdb": "^3.0.0"
+  }
+}
