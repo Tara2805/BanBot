@@ -2,18 +2,18 @@
 
 This bot was made due to a friend of mine receiving harrassment from a past partner. Many existing bots only have ban settings for <5 minutes. This is not adequate enough for people who receieve targeted harrassment. I decided to do this to make her feel safer in this online space. Tested and working July 2024.
 
-Notes
+# Notes
 - I got this idea from Reddit tech threads, however these were significantly outdated syntax wise and not useable. 
 - Additionally many bots try and do the jobs that other publicly accessible free bots already do, this only has the BAN feature in mind.
 
-Commands
+# Commands
 - /ban-new-accounts [x] - When used correctly with an integer value specified all new accounts that are < x are instantly banned. This is automatically set at 7 when the bot joins a server. 
 
-Server Setup
+# Server Setup
 - Download and hostable through discord developer platform
 - Ensure the bot is dragged above all normal member accounts or given admin role
 
-Instructions
+# Instructions
 1. Create a Discord Bot at https://discordapp.com/developers applications
 2. Click New Application
 3. On the left hand side click Bot and click OK
@@ -28,7 +28,7 @@ Instructions
 12. Enable discord developer mode in your server
 13. Right click your server on the left pane and select "copy server ID", then paste this into config.json
 
-Running the bot
+# Running the bot
 - After following the instructions now we can run the bot with the following commands in a terminal:
 - npm install
 - npm install discord.js @discordjs/rest discord-api-types axios
