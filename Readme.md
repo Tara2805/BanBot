@@ -1,4 +1,4 @@
-#BanBot
+# BanBot
 
 This bot was made due to a friend of mine receiving harrassment from a past partner. Many existing bots only have ban settings for <5 minutes. This is not adequate enough for people who receieve targeted harrassment. I decided to do this to make her feel safer in this online space. Tested and working July 2024.
 
